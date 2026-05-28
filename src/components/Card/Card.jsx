@@ -23,8 +23,14 @@ const Card = ({
     large: "p-8",
   };
 
-  return <div>Card</div>;
-}; 
+  return (
+    <div
+      className={`${baseStyles} ${hoverStyles} ${variants[variant]} ${paddingStyles[padding]} ${className}`}
+    >
+      {children}
+    </div>
+  );
+};
 export default Card;
 
 // <Card hover={false}  className="my-custom-class" variant="primary" padding="small"></Card>
