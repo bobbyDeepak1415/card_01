@@ -3,6 +3,7 @@ import Card from "./components/Card/Card";
 import CardImage from "./components/Card/CardImage";
 import CardHeader from "./components/Card/CardHeader";
 import CardTitle from "./components/Card/CardTitle";
+import CardBody from "./components/Card/CardBody";
 
 function App() {
   return (
@@ -38,12 +39,23 @@ function App() {
                     {card.title}
                   </CardTitle>
                   {card.rating && (
-                    <div className="">
-                      <span>⭐</span>
-                      <span>{card.rating}/5</span>
+                    <div className="flex tems-center gap-1">
+                      <span className="text-yellow-500">⭐</span>
+                      <span>{card.rating}/5.0</span>
                     </div>
                   )}
                 </CardHeader>
+                {card.description ? (
+                  <CardBody
+                    className={card.id % 2 === 0 ? "text-blue-700" : ""}
+                  >
+                    {card.description}
+                  </CardBody>
+                ) : (
+                  <CardBody className="text-gray-400 italic">
+                    No description for this destination
+                  </CardBody>
+                )}
               </div>
             </Card>
           ))}

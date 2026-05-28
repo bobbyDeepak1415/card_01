@@ -41,4 +41,6 @@
 27. inside this dive we have the cardHeader and we conditionally render the card category in a span if there is a category using && operator.we style this category.
 
 28. below this we render the cardTitle, and conditionally style the title whether the card.id is divisible by 2 or not. inside this we render the card.title
-29. below the cardTitle we conditionally render the rating if it is present using && operator. inside this we have a span with a star icon and then another span inside which we render the card.rating and /5
+29. below the cardTitle we conditionally render the rating if it is present using && operator. inside this we have a span with a star icon and then another span inside which we render the card.rating and /5.0
+
+30. below the cardHeader we conditionally render the cardBody depending upon whether there is a description or not. if there isnt then we render a CardBody again with some text inside which will be the fallback ui
