@@ -35,6 +35,10 @@
 
 24. we map through the objects from the array of items in the cardsData.js file and then return a Card with a unique key
 
-25. we pass the variant and padding as props whether the card.id is divisible by 2 or not(primary or default),we then conditionlly render the card image if it is present or not
+25. we pass the variant and padding as props.the variant depends on whether the card.id is divisible by 2 or not(primary or default),we then conditionlly render the card image if it is present using the && operator
 
 26. we create a div inside the Card below the image, this will the inner content wrapper
+27. inside this dive we have the cardHeader and we conditionally render the card category in a span if there is a category using && operator.we style this category.
+
+28. below this we render the cardTitle, and conditionally style the title whether the card.id is divisible by 2 or not. inside this we render the card.title
+29. below the cardTitle we conditionally render the rating if it is present using && operator. inside this we have a span with a star icon and then another span inside which we render the card.rating and /5
