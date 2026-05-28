@@ -1,5 +1,3 @@
-import Card from "./components/Card/Card";
-import CardFooter from "./components/Card/CardFooter";
 import { cardsData } from "./data/cardsData";
 
 function App() {

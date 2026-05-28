@@ -27,4 +27,6 @@
 
 20. created a folder named data and a file in it named cardsData.js and then added an array of different items containing properties like id,title,description,image,price,rating,category. some objects miss some fields
 
-21. inside the app component removed the card component to add styles. added styles for all the 3 divs starting with the outer most.
+21. inside the app component removed the card component to add styles. added styles for all the 3 divs starting with the outer most which is the outer div.then inside it there is another div which is the content wrapper,then a third div which is the header section.
+
+22. inside the third container there is a h1 for the header and a p tag for the sub text
