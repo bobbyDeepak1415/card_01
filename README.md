@@ -7,3 +7,5 @@
 6. created hoverStyles for true/false
 
 7. created the paddingStyles object and then different paddings(none,small,normal,large)
+8. combined all the styles using template literals for the className of the card and alson added class name in it,just in case we add more classes later
+9. added children to the return
