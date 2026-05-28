@@ -6,7 +6,7 @@ const Card = ({
   padding = "normal",
 }) => {
 
-  const naseStyles=""
+  const baseStyles=""
 
   return <div></div>;
 };
