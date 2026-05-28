@@ -1,4 +1,7 @@
 import { cardsData } from "./data/cardsData";
+import Card from "./components/Card/Card";
+import CardImage from "./components/Card/CardImage";
+
 
 function App() {
   return (
@@ -12,8 +15,16 @@ function App() {
             Reusable card component with dynamic data
           </p>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {cardsData.map()}
+          {cardsData.map((card) => (
+            <Card
+              key={card.id}
+              variant={card.id % 2 === 0 ? "primary" : "default"} padding="none"
+            >
+              {card.image&& <CardImage src={card.image} alt={card.title}/>}
+            </Card>
+          ))}
         </div>
       </div>
     </div>

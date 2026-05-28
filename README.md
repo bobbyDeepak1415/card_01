@@ -30,3 +30,11 @@
 21. inside the app component removed the card component to add styles. added styles for all the 3 divs starting with the outer most which is the outer div.then inside it there is another div which is the content wrapper,then a third div which is the header section.
 
 22. inside the third container there is a h1 for the header and a p tag for the sub text
+
+23. inside the 2nd div, below the 3rd div there is another div which is the cards grid
+
+24. we map through the objects from the array of items in the cardsData.js file and then return a Card with a unique key
+
+25. we pass the variant and padding as props whether the card.id is divisible by 2 or not(primary or default),we then conditionlly render the card image if it is present or not
+
+26. we create a div inside the Card below the image, this will the inner content wrapper
