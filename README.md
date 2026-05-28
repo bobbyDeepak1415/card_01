@@ -49,4 +49,4 @@
 
 32. inside the div in the footer component, beside the span in which the price is rendered place a button for call to action
 
-33. inside the second div which is the content wrapper, at the bottom we add another card to explain the project structure
+33. inside the second div which is the content wrapper, at the bottom we add another card to explain the project structure and style it accordingly
