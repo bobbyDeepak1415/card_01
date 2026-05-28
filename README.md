@@ -48,3 +48,5 @@
 31. just like the cardBody we also conditionally render the price of the item and a fallback ui if price is not present. we first render the CardFooter component and then inside of it we open a div and inside this div we conditionally render.
 
 32. inside the div in the footer component, beside the span in which the price is rendered place a button for call to action
+
+33. inside the second div which is the content wrapper, at the bottom we add another card to explain the project structure

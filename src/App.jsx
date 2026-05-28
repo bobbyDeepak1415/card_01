@@ -18,7 +18,6 @@ function App() {
             Reusable card component with dynamic data
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {cardsData.map((card) => (
             <Card
@@ -80,6 +79,25 @@ function App() {
               </div>
             </Card>
           ))}
+        </div>
+        <div className="mt-16">
+          <Card variant="dark" padding="large">
+            <h2 className="text-3xl font-bold mb-4">Project Struture</h2>
+            <div className="space-y-3 text-gray-300 font-mono text-sm">
+              <p>📁 src</p>
+              <p className="ml-4">📁 components/</p>
+              <p className="ml-8">📁 Card/</p>
+              <p className="ml-12">📄 Card.jsx- Main card wrapper</p>
+              <p className="ml-12">📄 CardHeader.jsx - Header</p>
+              <p className="ml-12">📄 CardTitle.jsx -Title</p>
+              <p className="ml-12">📄 CardBody.jsx -Body Content</p>
+              <p className="ml-12">📄 CardFooter.jsx - Footer</p>
+              <p className="ml-12">📄 CardImage.jsx - Image with fallback</p>
+              <p className="ml-4">📁 data/</p>
+              <p className="ml-8">📄 cardsData.js - Sample data</p>
+              <p className="ml-4">📄 App.jsx - Main Application</p>
+            </div>
+          </Card>
         </div>
       </div>
     </div>
