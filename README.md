@@ -17,10 +17,12 @@
 
 14. In the cardImage ,if there is no image,a place holder is shown(defensive programming), handleing missing data gracefully
 
-15. this image component takes 3 props, src ,alt and classNmae for any additional custom styles
+15. this image component takes 3 props, src ,alt and className for any additional custom styles
 
 16. conditional rendering for a place holder in Card image
 17. added styles to the cardImage component for bith the cases (conditional rendering)
 18. added the card Image to the app.jsx inside the card component and tested it with a stock image
 
-19. created card Header and card Title components and added basic style to them. they takes different props like classNmae for custom styles later and children
+19. created card Header, card Title, card Body,card Footer components and added basic style to them. they takes different props like classNmae for custom styles later and children, tested ot these components individually by adding and them removing them in app.jsx
+
+20. created a folder named data and a file in it named cardsData.js and then added an array of different items containing properties like id,title,description,image,price,rating,category
