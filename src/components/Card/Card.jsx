@@ -14,7 +14,7 @@ const Card = ({
     dark: "bg-gray-800 text-white border-gray-700",
   };
 
-  const hoverStyles = hover ? "hover:shadow-xl hover:-translate-y-1" : "";
+  const hoverStyles = hover ? "hover:shadow-xl hover:-translate-y-1 " : "";
 
   const paddingStyles = {
     none: "p-0",

@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-8">
-    <Card>
+    <Card variant="primary" padding="large" >
       <h2>Hello Card</h2>
       <p>This is working</p>
     </Card>
