@@ -25,4 +25,6 @@
 
 19. created card Header, card Title, card Body,card Footer components and added basic style to them. they takes different props like classNmae for custom styles later and children, tested ot these components individually by adding and them removing them in app.jsx
 
-20. created a folder named data and a file in it named cardsData.js and then added an array of different items containing properties like id,title,description,image,price,rating,category
+20. created a folder named data and a file in it named cardsData.js and then added an array of different items containing properties like id,title,description,image,price,rating,category. some objects miss some fields
+
+21. inside the app component removed the card component to add styles. added styles for all the 3 divs starting with the outer most.
