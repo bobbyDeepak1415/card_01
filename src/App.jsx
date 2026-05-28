@@ -1,9 +1,10 @@
+import Card from "./components/Card/Card"
 
 function App() {
 
   return (
     <>
-    React card
+    <Card/>
     </>
   )
 }

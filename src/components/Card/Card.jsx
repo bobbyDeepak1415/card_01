@@ -14,8 +14,17 @@ const Card = ({
     dark: "bg-gray-800 text-white border-gray-700",
   };
 
-  return <div></div>;
-};
+  const hoverStyles = hover ? "hover:shadow-xl hover:-translate-y-1" : "";
+
+  const paddingStyles = {
+    none: "p-0",
+    small: "p-4",
+    normal: "p-6",
+    large: "p-8",
+  };
+
+  return <div>Card</div>;
+}; 
 export default Card;
 
 // <Card hover={false}  className="my-custom-class" variant="primary" padding="small"></Card>
