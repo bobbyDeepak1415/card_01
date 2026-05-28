@@ -8,4 +8,6 @@
 
 7. created the paddingStyles object and then different paddings(none,small,normal,large)
 8. combined all the styles using template literals for the className of the card and alson added class name in it,just in case we add more classes later
-9. added children to the return
+9. added children as the content inside the card
+10. added basic styling to the container in app.jsx
+11. added the Card component and tested it by adding a few children
