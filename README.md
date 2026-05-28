@@ -44,3 +44,7 @@
 29. below the cardTitle we conditionally render the rating if it is present using && operator. inside this we have a span with a star icon and then another span inside which we render the card.rating and /5.0
 
 30. below the cardHeader we conditionally render the cardBody depending upon whether there is a description or not. if there isnt then we render a CardBody again with some text inside which will be the fallback ui
+
+31. just like the cardBody we also conditionally render the price of the item and a fallback ui if price is not present. we first render the CardFooter component and then inside of it we open a div and inside this div we conditionally render.
+
+32. inside the div in the footer component, beside the span in which the price is rendered place a button for call to action
